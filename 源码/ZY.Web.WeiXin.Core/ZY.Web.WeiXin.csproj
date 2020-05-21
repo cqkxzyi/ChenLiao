@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
+    <PackageReference Include="NewLife.Core" Version="8.7.2020.501" />
+    <PackageReference Include="NewLife.XCode" Version="9.17.2020.501" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ZY.Models\ZY.Models.csproj" />
+    <ProjectReference Include="..\ZY.Util\ZY.Util.csproj" />
+  </ItemGroup>
+
+</Project>
